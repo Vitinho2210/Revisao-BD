@@ -79,23 +79,18 @@ INSERT INTO tbl_cliente (ID_Cliente, NomeCompleto, Email, CPF, DataCadastro) VAL
 (10, 'João Pedro Teixeira', 'joao.teixeira@email.com', '13579246828', '20260819');
 
 INSERT INTO tbl_autor (ID_Autor, NomeCompleto, Nacionalidade, DataNascimento) VALUES
-(1, 'Marina Almeida Prado', 'Brasileira', '19400101'),
-(2, 'Rafael Barros Vasconcelos', 'Brasileira', '19470612'),
-(3, 'Helena Cavalcanti Queiroz', 'Portuguesa', '19541123'),
-(4, 'Otávio Duarte Lacerda', 'Brasileira', '19610406'),
-(5, 'Beatriz Esteves Siqueira', 'Argentina', '19680917'),
-(6, 'Lucas Fonseca Tavares', 'Brasileira', '19750228'),
-(7, 'Carla Guimarães Campos', 'Angolana', '19820711'),
-(26, 'Nina Fonseca Bastos', 'Brasileira', '19650624'),
-(27, 'Davi Guimarães Prado', 'Angolana', '19721107'),
-(48, 'Flávia Holanda Tavares', 'Brasileira', '19690814'),
-(49, 'Otto Ibrahim Campos', 'Uruguaia', '19760125'),
-(50, 'Nádia Junqueira Neves', 'Brasileira', '19830608');
+(1, 'Helena Cavalcanti Queiroz', 'Portuguesa', '19541123'),
+(2, 'Otávio Duarte Lacerda', 'Brasileira', '19610406'),
+(3, 'Beatriz Esteves Siqueira', 'Argentina', '19680917'),
+(4, 'Lucas Fonseca Tavares', 'Brasileira', '19750228'),
+(5, 'Carla Guimarães Campos', 'Angolana', '19820711'),
+(6, 'Nina Fonseca Bastos', 'Brasileira', '19650624'),
+(7, 'Davi Guimarães Prado', 'Angolana', '19721107'),
+(8, 'Flávia Holanda Tavares', 'Brasileira', '19690814'),
+(9, 'Otto Ibrahim Campos', 'Uruguaia', '19760125'),
+(10, 'Nádia Junqueira Neves', 'Brasileira', '19830608');
 
 INSERT INTO tbl_livro (ISBN, Titulo, PrecoVendaAtual, QtdEstoque, AnoPublicacao, ID_Editora) VALUES
-('9788500000001', 'O Farol das Marés Calmas', 49.90, 25, 2015, 1),
-('9788500000019', 'Física em Movimento', 62.90, 24, 2021, 9),
-('9788500000020', 'O Jardim Suspenso', 41.90, 27, 2015, 10),
 ('9788500000021', 'Lógica de Programação Ilustrada', 56.90, 19, 2020, 1),
 ('9788500000022', 'Memórias de um Navegador', 48.90, 42, 2008, 2),
 ('9788500000023', 'Sociedade e Tecnologia', 45.90, 13, 2019, 3),
@@ -108,15 +103,12 @@ INSERT INTO tbl_livro (ISBN, Titulo, PrecoVendaAtual, QtdEstoque, AnoPublicacao,
 ('9788500000030', 'O Mistério da Rua das Flores', 40.90, 33, 2017, 10);
 
 INSERT INTO tbl_livro_autor (ISBN, ID_Autor) VALUES
-('9788500000001', 1),
-('9788500000002', 2),
-('9788500000007', 37),
 ('9788500000008', 38),
 ('9788500000009', 39),
 ('9788500000010', 40),
 ('9788500000011', 41),
 ('9788500000012', 42),
-('9788500000013', 43),('9788500000016', 46),
+('9788500000013', 43),
 ('9788500000017', 47),
 ('9788500000018', 48),
 ('9788500000019', 49),
