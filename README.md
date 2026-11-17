@@ -1,5 +1,5 @@
 📚 Revisão de Banco de Dados
-📌 Sobre o projeto
+📌 Sobre este projeto
 
 Este repositório foi desenvolvido com o objetivo de praticar e revisar conceitos fundamentais de Banco de Dados utilizando SQL Server.
 
